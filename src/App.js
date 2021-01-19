@@ -12,6 +12,7 @@ import Kalender from "./Kalender";
 import Routine from "./Routine";
 import NewRoutine from "./Newroutine";
 import Gebruiker from "./Gebruiker";
+import OefeningenLijst from "./components/oefeningen-lijst";
 import {
   Switch,
   Route,
@@ -22,7 +23,7 @@ import {
 
 import firebase from "./firebase";
 
-firebase.firestore().collection('Test').add({
+firebase.firestore().collection('oefeningen').add({
   titel: 'Curls',
   reps: 8
 })
