@@ -1,26 +1,41 @@
-# xsersize
+<img src="icon.png" align="right" />
+# Xsersize
 
 Xsersize is a fitness app for those who need a motivation boost.
  
 
-## Installation
+## Getting started
+Clone or download the project and navigate to the source folder in your terminal. From there, you can run the following command to run the application in development mode.
+```bash 
+npm start
+```
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+## Libraries
+#### Installation
+$ npm install @material-ui/core
 
+### React
+-React-router-dom
+
+### Material-UI
+See https://material-ui.com/ for more information and available components/props
+<br>-@material-ui/core
+<br>-@material-ui/icons
+
+#### Installation
 ```bash
-pip install foobar
+$ npm install @material-ui/core
 ```
 
-## Usage
-
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+#### Material-UI Usage 
 ```
+import React from 'react';
+import { Button } from '@material-ui/core';
 
+function App() {
+  return <Button color="primary">Hello World</Button>;
+}
+```
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
