@@ -1,6 +1,6 @@
 # Xsersize
 Xsersize is a fitness app for those who need a motivation boost.<br>
-Users can view excersizes, follow routines and its going to include many more features in the future!
+Users can view excersizes, follow routines and its going to include many more features in the future!<br>
 ![icon-72x72](https://user-images.githubusercontent.com/47569957/105243498-7194b280-5b6f-11eb-9918-7e7fe2e71251.png)
 
  
