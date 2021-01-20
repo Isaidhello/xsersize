@@ -3,6 +3,12 @@ Xsersize is a fitness app for those who need a motivation boost.<br>
 ![icon-72x72](https://user-images.githubusercontent.com/47569957/105243498-7194b280-5b6f-11eb-9918-7e7fe2e71251.png)
 
  
+# Frameworks and database used
+I made this app with the following:
+[Reactjs](https://create-react-app.dev/docs/getting-started/)
+[Material UI](https://material-ui.com/getting-started/installation/)
+[Firebase](https://firebase.google.com/docs/web/setup)
+
 
 ## Getting started
 Clone or download the project and navigate to the source folder in your terminal. From there, you can run the following command to run the application in development mode.
