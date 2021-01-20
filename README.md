@@ -1,13 +1,14 @@
 # Xsersize
 Xsersize is a fitness app for those who need a motivation boost.<br>
+Users can view excersizes, follow routines and its going to include many more features in the future!
 ![icon-72x72](https://user-images.githubusercontent.com/47569957/105243498-7194b280-5b6f-11eb-9918-7e7fe2e71251.png)
 
  
 # Frameworks and database used
 I made this app with the following:
-[Reactjs](https://create-react-app.dev/docs/getting-started/)
-[Material UI](https://material-ui.com/getting-started/installation/)
-[Firebase](https://firebase.google.com/docs/web/setup)
+- [React](https://create-react-app.dev/docs/getting-started/)
+- [Material-UI](https://material-ui.com/getting-started/installation/)
+- [Firebase](https://firebase.google.com/docs/web/setup)
 
 
 ## Getting started
