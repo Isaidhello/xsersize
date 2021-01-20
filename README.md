@@ -1,7 +1,7 @@
-<img src="icon.png" align="right" />
 # Xsersize
+Xsersize is a fitness app for those who need a motivation boost.<br>
+![icon-72x72](https://user-images.githubusercontent.com/47569957/105243498-7194b280-5b6f-11eb-9918-7e7fe2e71251.png)
 
-Xsersize is a fitness app for those who need a motivation boost.
  
 
 ## Getting started
