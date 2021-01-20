@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/xsersize/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/xsersize/static/js/main.089fcab8.chunk.js",
+    "main.js.map": "/xsersize/static/js/main.089fcab8.chunk.js.map",
+    "runtime-main.js": "/xsersize/static/js/runtime-main.7c567a7d.js",
+    "runtime-main.js.map": "/xsersize/static/js/runtime-main.7c567a7d.js.map",
+    "static/js/2.31ed18c9.chunk.js": "/xsersize/static/js/2.31ed18c9.chunk.js",
+    "static/js/2.31ed18c9.chunk.js.map": "/xsersize/static/js/2.31ed18c9.chunk.js.map",
+    "index.html": "/xsersize/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/xsersize/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.31ed18c9.chunk.js.LICENSE.txt": "/xsersize/static/js/2.31ed18c9.chunk.js.LICENSE.txt",
+    "static/media/kalender.d97dc83f.PNG": "/xsersize/static/media/kalender.d97dc83f.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c567a7d.js",
+    "static/js/2.31ed18c9.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.089fcab8.chunk.js"
+  ]
+}

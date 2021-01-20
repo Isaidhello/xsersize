@@ -1,5 +1,6 @@
 {
   "name": "xsersize",
+  "homepage": "https://i417398.hera.fhict.nl/xsersize/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

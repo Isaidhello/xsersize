@@ -46,6 +46,10 @@ export default function ButtonAppBar() {
         <Button variant="contained">Workouts</Button>
     </Link>
 
+    <Link to="/oefeningpage">
+        <Button variant="contained">Oefeningen</Button>
+    </Link>
+
         </Toolbar>
       </AppBar>
     </div>

@@ -13,7 +13,9 @@ import Routine from "./Routine";
 import NewRoutine from "./Newroutine";
 import Gebruiker from "./Gebruiker";
 import OefeningenLijst from "./components/oefeningen-lijst";
+import Oefeningpage from "./components/Oefeningpage";
 import {
+  BrowserRouter as Router,
   Switch,
   Route,
   Link
@@ -22,11 +24,6 @@ import {
 
 
 import firebase from "./firebase";
-
-firebase.firestore().collection('oefeningen').add({
-  titel: 'Curls',
-  reps: 8
-})
 
 
 const useStyles = makeStyles({
@@ -38,6 +35,7 @@ const useStyles = makeStyles({
 export default function App() {
 
   return (
+    <Router basename = '/xsersize'>
     <div ClassName="App">
     <Switch>
 
@@ -65,7 +63,12 @@ export default function App() {
     <Gebruiker />
     </Route>
 
+    <Route path="/oefeningpage">
+    <Oefeningpage />
+    </Route>
+
     </Switch>
     </div>
+    </Router>
   );
 }

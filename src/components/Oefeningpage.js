@@ -1,7 +1,9 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
-import Navbar from "./components/Navbar";
+import Navbar from "./Navbar";
+import OefeningenLijst from "./oefeningen-lijst";
+import ToevoegenReps from "./toevoegen-reps";
 import {
     Switch,
     Route,
@@ -20,11 +22,11 @@ export default function SimpleBottomNavigation() {
 
   return (
 <div>
-    <h1>Mijn Account</h1>
-{/* Deze pagina is een wip hier hier worden de gegevens van de gebruiker gezet bij het maken van een account */}
-Naam: Adam Bye
-Leeftijd: 26
+    <h1>Oefeningen</h1>
+
     <Navbar />
+    <ToevoegenReps />
+    <OefeningenLijst />
 </div>
   );
 }

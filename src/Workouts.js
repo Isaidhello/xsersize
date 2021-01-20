@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
-import Navbar from "./Navbar";
+import Navbar from "./components/Navbar";
 import OefeningenLijst from "./components/oefeningen-lijst";
 import ToevoegenReps from "./components/toevoegen-reps";
 import {
