@@ -1,5 +1,5 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
+import { Grid, makeStyles } from '@material-ui/core'
 import BottomNavigation from '@material-ui/core/BottomNavigation';
 import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
 import FolderIcon from '@material-ui/icons/Folder';
@@ -14,6 +14,8 @@ import NewRoutine from "./Newroutine";
 import Gebruiker from "./Gebruiker";
 import OefeningenLijst from "./components/oefeningen-lijst";
 import Oefeningpage from "./components/Oefeningpage";
+import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
+import CssBaseline from '@material-ui/core/CssBaseline';
 import {
   BrowserRouter as Router,
   Switch,
@@ -21,20 +23,24 @@ import {
   Link
 } from "react-router-dom";
 
-
-
 import firebase from "./firebase";
 
 
-const useStyles = makeStyles({
-  root: {
-    width: 500,
+const useStyles = makeStyles((theme) => ({
+  container: {
+    justifyContent: 'space-around',
+    overflow: 'hidden',
+    minHeight: '100vh',
+    width: '100%',
   },
-});
+}));
 
 export default function App() {
-
+  const classes = useStyles()
   return (
+    //In deze file worden alle pagina's geladen en een path gegeven als je een nieuwe pagina wil maken en linken moet die hier toegevoegd worden.
+    <Grid container className={classes.container}>
+      <CssBaseline />
     <Router basename = '/xsersize'>
     <div ClassName="App">
     <Switch>
@@ -70,5 +76,6 @@ export default function App() {
     </Switch>
     </div>
     </Router>
+    </Grid>
   );
 }

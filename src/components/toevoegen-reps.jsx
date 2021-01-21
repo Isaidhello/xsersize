@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
 import firebase from '../firebase'
 
+//hiermee kan je oefeningen en reps uploaden naar firebase
 const ToevoegenReps =  () => {
     const [titel, setTitel] = useState('')
     const [reps, setOefening] = useState('')
-
+//voorkomt dat je lege velden doorstuurt
     function onSubmit(e) {
         e.preventDefault()
 

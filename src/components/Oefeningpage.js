@@ -21,12 +21,13 @@ export default function SimpleBottomNavigation() {
   const [value, setValue] = React.useState(0);
 
   return (
+    //dit is de oefeningen pagina bekijk oefening-lijst.jsx en toevoegen-reps.jsx voor de logika hierachter
 <div>
     <h1>Oefeningen</h1>
 
-    <Navbar />
     <ToevoegenReps />
     <OefeningenLijst />
+    <Navbar />
 </div>
   );
 }

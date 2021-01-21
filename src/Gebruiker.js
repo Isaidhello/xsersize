@@ -12,6 +12,15 @@ const useStyles = makeStyles({
   root: {
     width: 500,
   },
+  buttonStyle: {
+    background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
+    border: 0,
+    borderRadius: 3,
+    boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
+    color: 'white',
+    height: 48,
+    padding: '0 30px',
+  }
 });
 
 export default function SimpleBottomNavigation() {
@@ -22,8 +31,8 @@ export default function SimpleBottomNavigation() {
 <div>
     <h1>Mijn Account</h1>
 {/* Deze pagina is een wip hier hier worden de gegevens van de gebruiker gezet bij het maken van een account */}
-Naam: Adam Bye
-Leeftijd: 26
+<h4>Naam: Adam Bye<br></br>
+Leeftijd: 26</h4>
     <Navbar />
 </div>
   );

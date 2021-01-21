@@ -1,12 +1,13 @@
 import React, {useState, useEffect} from 'react'
 import firebase from '../firebase'
 
+//Hiermee kunnen de list items gesorteerd worden
 const SORT_OPTIONS = {
 'OEFENING_ASC': {column: 'titel', direction: 'asc'},
 'OEFENING_DESC': {column: 'titel', direction: 'desc'}
 }
 
-
+//met deze hook haal je alle oefeningen op in firebase
 function useOefening(sortBy = 'OEFENING_ASC') {
 const [oefeningen, setOefeningen] = useState ([])
 
@@ -23,7 +24,7 @@ useEffect(() => {
 
         setOefeningen(newOefeningen)
     })
-
+//Unsub wanneer je klaar bent
     return () => unsubscribe()
 }, [sortBy])
 
