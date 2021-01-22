@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import firebase from '../firebase'
+import Button from '@material-ui/core/Button';
 
 //hiermee kan je oefeningen en reps uploaden naar firebase
 const ToevoegenReps =  () => {

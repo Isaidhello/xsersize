@@ -4,6 +4,7 @@ import Button from '@material-ui/core/Button';
 import Navbar from "./Navbar";
 import OefeningenLijst from "./oefeningen-lijst";
 import ToevoegenReps from "./toevoegen-reps";
+import Grid from '@material-ui/core/Grid';
 import {
     Switch,
     Route,
@@ -14,6 +15,9 @@ const useStyles = makeStyles({
   root: {
     width: 500,
   },
+  container: {
+    height: '100vh',
+},
 });
 
 export default function SimpleBottomNavigation() {
@@ -22,12 +26,13 @@ export default function SimpleBottomNavigation() {
 
   return (
     //dit is de oefeningen pagina bekijk oefening-lijst.jsx en toevoegen-reps.jsx voor de logika hierachter
+    <Grid container justify="center">
 <div>
     <h1>Oefeningen</h1>
 
     <ToevoegenReps />
     <OefeningenLijst />
-    <Navbar />
 </div>
+</Grid>
   );
 }

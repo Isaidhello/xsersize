@@ -1,22 +1,17 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
-import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import BottomNavigation from "@material-ui/core/BottomNavigation";
 import BottomNavigationAction from "@material-ui/core/BottomNavigationAction";
-import FolderIcon from "@material-ui/icons/Folder";
-import RestoreIcon from "@material-ui/icons/Restore";
-import FavoriteIcon from "@material-ui/icons/Favorite";
-import LocationOnIcon from "@material-ui/icons/LocationOn";
 import DateRangeIcon from "@material-ui/icons/DateRange";
-import IconButton from "@material-ui/core/IconButton";
-import MenuIcon from "@material-ui/icons/Menu";
 import PersonIcon from "@material-ui/icons/Person";
 import Button from "@material-ui/core/Button";
 import FitnessCenterIcon from "@material-ui/icons/FitnessCenter";
 import AccessibilityNewIcon from "@material-ui/icons/AccessibilityNew";
 import { Switch, Route, Link } from "react-router-dom";
+import CssBaseline from '@material-ui/core/CssBaseline';
+import Grid from '@material-ui/core/Grid';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -28,6 +23,12 @@ const useStyles = makeStyles((theme) => ({
   title: {
     flexGrow: 1,
   },
+  primary: {
+    main: '#0B9289',
+  },
+  secondary: {
+  main: '#f44336',
+},
 }));
 
 export default function LabelBottomNavigation() {
@@ -41,11 +42,13 @@ export default function LabelBottomNavigation() {
   //dit is de navigatie gedeelte v/d app hier zijn de iconen die linken naar de andere components
   return (
     <div className={classes.root}>
+      <CssBaseline />
+      
       <BottomNavigation
         value={value}
         onChange={handleChange}
         className={classes.root}
-        color="primary"
+        style={{marginBottom: '0'  }}
       >
         <Link to="/kalender">
           <BottomNavigationAction

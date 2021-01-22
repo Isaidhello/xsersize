@@ -59,7 +59,7 @@ const OefeningLijst =  () => {
                         <div className="oefening-toevoegen">
                             {oefening.titel} 
                             <code className="reps">{oefening.reps} reps </code>
-                            
+                            <button onClick={onDelete}>Verwijder</button>
                         </div>
                     </li>
             )}
